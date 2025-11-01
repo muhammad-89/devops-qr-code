@@ -1,6 +1,6 @@
 name: Build and Publish image to DockerHub 
 on: 
-  [workflow dispatch] 
+  [workflow_dispatch] 
 jobs:
   publish_images:
     runs-on: ubuntu-latest
